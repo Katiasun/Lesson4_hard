@@ -17,6 +17,9 @@ table {
 aside {
   background-color: rgb(148, 24, 24);
 }
+table {
+  border-spacing: 0;
+}
 .menu,
 .title {
   width: 15%;
