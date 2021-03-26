@@ -14,25 +14,36 @@ a {
 table {
   width: 100%;
 }
+table td {
+  vertical-align: top;
+}
 aside {
   background-color: rgb(148, 24, 24);
+  height: 100%;
 }
 table {
   border-spacing: 0;
+  padding: 0;
 }
 .menu,
 .title {
-  width: 15%;
+  width: 20%;
   text-align: center;
 }
+.menu {
+  background-color: rgb(196, 37, 37);
+  line-height: 2;
+}
 .text {
-  width: 70%;
+  width: 60%;
   background-color: rgb(196, 37, 37);
   color: white;
   padding: 15px;
 }
-li {
-  list-style-type: none;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 hr {
   width: 50%;
